@@ -107,7 +107,7 @@ var shareMessage = '[SCORE]pts is mine new highscore on Whack A Mole game! Try i
  * GAME SETTING CUSTOMIZATION END
  *
  */
-$.editor = {enable:false};
+$.editor = {enable:true};
 var playerData = {score:0};
 var gameData = {paused:true, levelNum:0, nextLevel:false, totalMole:0, turn:[], turnIndex:0, turnSwitch:0, animating:false, moleSpeed:0, molePunchSpeed:0, moleDelay:[], mask:{w:200, h:300, y:-1}, holeMove:{distanceX:30, distanceY:5}};
 var timeData = {enable:false, startDate:null, nowDate:null, timer:0, oldTimer:0};
